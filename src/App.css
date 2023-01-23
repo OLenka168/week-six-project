@@ -1,38 +1,177 @@
-.App {
-  text-align: center;
+body {
+    background-color: #E4E8F6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav {
+    margin-top: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.link {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.heading {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btnSlides {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_left {
+    cursor: pointer;
+    border: 20px solid transparent; 
+    border-right: 20px solid #5792EA;
+    margin-right: 20px;
+    margin-top: 50px;
+    height: 20px;
+    background-color: #E4E8F6;
+} 
+
+.btn_right {
+    cursor: pointer;
+    border: 20px solid transparent; 
+    border-left: 20px solid #5792EA;
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 20px;
+    background-color: #E4E8F6;
+}
+
+.rightBtn {
+    background-color: #E4E8F6;
+	border-right: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid #5792EA;
+	border-bottom: 10px solid transparent;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.popular {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.popular_img {
+    margin-left: 10px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_item {
+    background-color: #5792EA;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product_card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 16%;
+}
+
+.product_img {
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.show {
+    cursor: pointer;
+    background: #E4E8F6;
+    border: none;
+    font-size: 16px;
+    color: #5792EA;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.barsik {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    margin-right: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about_text {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.contact {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 50px;
+}
+
+.input_mail {
+    padding: 10px 70px;
+}
+
+.input_text {
+    padding: 50px 100px;
+}
+
+.btn_form {
+    font-family: 'Raleway', sans-serif;
+    width: 50%;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #5792EA;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.answer {
+    margin-top: 200px;
 }
