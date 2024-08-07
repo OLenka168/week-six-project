@@ -1,7 +1,7 @@
-import stopper from './stopper.jpg';
-import mooring from './mooring.jpg';
-import axiom from './axiom.jpg';
-import lifejacket from './lifejacket.jpg';
+import stopper from '../img/stopper.jpg';
+import mooring from '../img/mooring.jpg';
+import axiom from '../img/axiom.jpg';
+import lifejacket from '../img/lifejacket.jpg';
 
 export const dataMew = [
     {

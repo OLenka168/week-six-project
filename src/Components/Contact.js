@@ -1,6 +1,6 @@
-import telephone from './telephone.png';
-import email from './email.png';
-import location from './location.png';
+import telephone from './img/telephone.png';
+import email from './img/email.png';
+import location from './img/location.png';
 import { YMaps, Map } from '@pbe/react-yandex-maps';
 import ContactForm from './ContactForm';
 

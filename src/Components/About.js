@@ -1,8 +1,8 @@
-import Barsik from './Barsik.jpg'
+import Barsik from './img/Barsik.jpg'
 
 function About() {
     return(
-        <div>
+        <div className='container-about'>
             <div className='heading'>
                 <h2>ABOUT US</h2>
             </div>
@@ -10,8 +10,8 @@ function About() {
                 <div className='about'>
                     <p>"LET'S PURR TOGETHER!" <br></br> Barsik, the Founder</p>
                 </div>
-                <div>
-                    <img src={Barsik} width='300px' alt='pic' />
+                <div >
+                    <img src={Barsik}  className='barsik-img'alt='pic' />
                 </div>
             </div>
             <div className='about_text'>

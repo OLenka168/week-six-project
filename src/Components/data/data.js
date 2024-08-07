@@ -1,18 +1,18 @@
-import anchor from './anchor.jpg';
-import axiom from './axiom.jpg';
-import ball from './ball.jpg';
-import block from './block.jpg';
-import carbon from './carbon.jpg';
-import echo from './echo.jpg';
-import lifebuoy from './lifebuoy.jpg';
-import lifejacket from './lifejacket.jpg';
-import line from './line.jpg';
-import mooring from './mooring.jpg';
-import pes from './pes.jpg';
-import sonar from './sonar.jpg';
-import rope from './rope.jpg';
-import winch from './winch.jpg';
-import stopper from './stopper.jpg';
+import anchor from '../img/anchor.jpg';
+import axiom from '../img/axiom.jpg';
+import ball from '../img/ball.jpg';
+import block from '../img/block.jpg';
+import carbon from '../img/carbon.jpg';
+import echo from '../img/echo.jpg';
+import lifebuoy from '../img/lifebuoy.jpg';
+import lifejacket from '../img/lifejacket.jpg';
+import line from '../img/line.jpg';
+import mooring from '../img/mooring.jpg';
+import pes from '../img/pes.jpg';
+import sonar from '../img/sonar.jpg';
+import rope from '../img/rope.jpg';
+import winch from '../img/winch.jpg';
+import stopper from '../img/stopper.jpg';
 
 export const data = [
     {
